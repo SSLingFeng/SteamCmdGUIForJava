@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2285c1e2-7c15-44a6-b407-21806db0f978" name="更改" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/PageMenu.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/PageMenu.java" afterDir="false" />
+    <list default="true" id="2285c1e2-7c15-44a6-b407-21806db0f978" name="更改" comment="增加基础配置类，读取写入config文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/PageMenu.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/PageMenu.form" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true",
-    "应用程序.Main.executor": "Debug"
+    "应用程序.Main.executor": "Debug",
+    "应用程序.test.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,6 +76,15 @@
       <recent name="D:\Java\JAVA\SteamCmdForJava\src\main\java\ui" />
       <recent name="D:\Java\JAVA\SteamCmdForJava\src\main\java" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="SteamCmdForJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -95,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735717833425</updated>
-      <workItem from="1735717834455" duration="4554000" />
+      <workItem from="1735717834455" duration="4837000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -105,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735717862805</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加基础配置类，读取写入config文件">
+      <option name="closed" value="true" />
+      <created>1735722434279</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735722434279</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +138,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="增加基础配置类，读取写入config文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加基础配置类，读取写入config文件" />
   </component>
 </project>
